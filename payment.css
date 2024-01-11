@@ -1,0 +1,33 @@
+body{
+    margin: 20px;
+    color:black;
+    background-image: url("Images/card1.jpg");
+    background-size: cover;
+    font-size: large;
+
+}
+.success{
+    
+    width: 400px;
+    height: 100px;
+}
+.success img{
+    padding: 25px;
+    box-sizing: border-box;
+}
+.success img:hover{
+    box-shadow: 0 0 2px 1px blue;
+    padding: 5px;
+}  
+ul{
+    list-style-type: square;
+}
+a:link,a:visited{
+    background-color: #25f5f59d;
+    color: black;
+    padding: 14px 25px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
