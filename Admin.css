@@ -1,0 +1,63 @@
+body{
+    margin:20px;
+    background-image: url("Images/shop11.jpg");
+    background-size: cover;
+    font-size: large;
+}
+.dash img{
+    float: right;
+    width: 600px;
+    height: 400px;
+    padding:30px 30px 30px 40px;
+
+}
+.data img{
+    float: left;
+    width: 600px;
+    height: 400px;
+    padding:20px 20px 10px 30px;
+}
+.create img{
+    width: 600px;
+    height: 400px;
+}
+.order img{
+    margin-right: 80%;
+    width: 500px;
+    height: 300px;
+}
+#sort img{
+    width:600px;
+    height: 200px;
+    padding: 10px 10px 10px 10px
+}
+
+.data img:hover{
+    box-shadow: 0 0 2px 1px blue;
+    padding: 5px;
+}  
+ul{
+    list-style-type: square;
+}
+.content{
+    display: none;
+}
+
+.dropdown:hover + .content{
+    display:block;
+    color:black;
+
+}
+a:link,a:visited{
+    background-color: blue;
+    color: white;
+    padding: 15px 15px;
+    display: inline-block;
+    border-radius: 30px;
+    text-align:center; 
+    display: flex;
+    justify-content: center; 
+    width: 110px;
+    height: 35px;
+    text-decoration: none;
+}
