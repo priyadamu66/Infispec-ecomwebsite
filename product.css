@@ -1,0 +1,80 @@
+body{
+    background-image: url("Images/shop5.jpg");
+    background-size: cover;
+}
+.product{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.img1 img{
+    float:right;
+    width:600px;
+    height:400px;
+    padding: 5px 5px 50px 5px;
+    border-color: blue;
+}
+.img1 img:hover{
+    box-shadow: 0 0 2px 1px rgb(24, 24, 248);
+    padding: 5px;
+}   
+.img2 img{
+    float:left;
+    width:600px;
+    height:500px;
+    padding: 5px 5px 50px 5px;
+    border-radius: 5px;
+}
+.img2 img:hover{
+    box-shadow: 0 0 2px 1px rgb(22, 22, 255);
+    padding: 5px;
+} 
+.content{
+    float:right;
+}
+.img3 img{
+    width:700px;
+    height:400px;
+    float:left;
+    padding: 5px 5px 50px 5px;
+    border-radius: 5px;
+}
+.img3 img:hover{
+    box-shadow: 0 0 2px 1px rgb(16, 16, 240);
+    padding: 5px;
+} 
+.c2{
+    float:inline-start
+}
+
+.img4 img{
+    margin-left: -250px;
+    border-radius: 5px;
+    border-style: ridge;
+    border-color:#00d7ff;
+    border-radius: 5px;
+}
+.img4 img:hover{
+    box-shadow: 0 0 2px 1px rgb(19, 19, 247);
+    padding: 5px;
+} 
+
+.link{
+    margin-left: -120px;
+
+}
+a:link,a:visited{
+    background-color: rgb(9, 69, 104);
+    color: white;
+    padding: 14px 25px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+
+
+  ul{
+    list-style-type:square;
+  }
+  
+

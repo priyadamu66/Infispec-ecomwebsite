@@ -1,0 +1,40 @@
+body{
+    background-image: url("Images/shop9.jpg");
+    background-size: cover;
+    font-size: large;
+}
+
+.p1{
+    margin-left: 50%;
+    width:200px;
+    height:100px;
+}
+.check{
+    margin-left:90px; 
+   width: 100px;
+   height: 100px;
+}
+
+.tag{
+    padding: 5px 5px 5px 5px;
+}
+ul{
+    list-style-type: square;
+}
+.tag img{
+    padding: 25px;
+    box-sizing: border-box;
+}
+.tag img:hover{
+    box-shadow: 0 0 2px 1px green;
+    padding: 5px;
+}    
+
+a:link,a:visited{
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+}

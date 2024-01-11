@@ -1,0 +1,43 @@
+body{
+
+    background-image: url('./Images/6310507.jpg');
+    color: black;
+    column-count: 1;
+    column-fill: balance;
+    column-gap: 60px;
+    column-fill: auto;
+    text-align:justify;
+    font-size: large;
+
+
+}
+h3{
+    text-shadow: 1px 2px rgba(202, 102, 202, 0.74);
+}
+a{
+    color:purple;
+}
+.content h5{
+    font-size: 48px;
+}
+.content h4{
+    float:left;
+}
+
+a:link,a:visited{
+    background-color: purple;
+    color: white;
+    padding: 14px 25px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.content{
+    display: none;
+}
+
+.dropdown:hover + .content{
+    display:block;
+    color:black;
+
+}
